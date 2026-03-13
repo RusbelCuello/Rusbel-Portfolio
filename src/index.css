@@ -24,3 +24,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
+section {
+  scroll-margin-top: 90px;
+}

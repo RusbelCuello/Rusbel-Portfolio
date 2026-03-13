@@ -1,40 +1,53 @@
+import rusbel from "../assets/rusbel.jpg";
+
 function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center text-center px-6 pt-28"
+      className="min-h-screen flex flex-col items-center justify-center text-center px-6"
     >
-      {" "}
-      <div className="max-w-3xl">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-          Rusbel Cuello
-        </h1>
-
-        <p className="text-gray-400 text-lg md:text-xl mb-8">
-          Desarrollador Frontend especializado en React
-        </p>
-
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#projects"
-            className="bg-blue-500 px-6 py-3 rounded-lg hover:bg-blue-600"
-          >
-            Ver proyectos
-          </a>
-
-          <a
-            href="#contact"
-            className="border px-6 py-3 rounded-lg hover:bg-white hover:text-black"
-          >
-            Contacto
-          </a>
-        </div>
+      {/* Foto */}
+      <div className="mb-8">
+        <img
+          src={rusbel}
+          alt="Rusbel Cuello"
+          className="w-44 h-44 md:w-52 md:h-52 rounded-full border-4 border-blue-500 shadow-xl shadow-blue-500/30 mb-8 object-cover object-[50%_20%] transition-transform duration-500 hover:scale-110"
+        />
       </div>
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#about" className="text-gray-400 text-3xl">
-          ↓
+
+      {/* Titulo */}
+      <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+        Hola, soy{" "}
+        <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+          Rusbel
+        </span>
+      </h1>
+
+      {/* Subtitulo */}
+      <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-xl">
+        Desarrollador Frontend especializado en React. Me enfoco en crear
+        interfaces modernas, rápidas y experiencias web de alta calidad.
+      </p>
+
+      {/* Botones */}
+      <div className="flex gap-4 mt-10">
+        <a
+          href="#projects"
+          className="px-6 py-3 bg-blue-500 hover:bg-blue-600 transition rounded-lg font-medium shadow-lg"
+        >
+          Ver proyectos
+        </a>
+
+        <a
+          href="#contact"
+          className="px-6 py-3 border border-gray-400 hover:border-white transition rounded-lg font-medium"
+        >
+          Contacto
         </a>
       </div>
+
+      {/* Flecha para bajar */}
+      <div className="mt-16 animate-bounce text-gray-400 text-2xl">↓</div>
     </section>
   );
 }
