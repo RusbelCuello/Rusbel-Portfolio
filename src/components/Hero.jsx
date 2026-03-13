@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center text-center px-6"
+      className="min-h-[90vh] flex flex-col items-center justify-center text-center px-6"
     >
       {/* Foto */}
       <div className="mb-8">
@@ -47,7 +47,7 @@ function Hero() {
       </div>
 
       {/* Flecha para bajar */}
-      <div className="mt-16 animate-bounce text-gray-400 text-2xl">↓</div>
+      <div className="mt-20 animate-bounce text-gray-400 text-2xl">↓</div>
     </section>
   );
 }
