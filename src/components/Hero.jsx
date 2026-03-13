@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-[90vh] flex flex-col items-center justify-center text-center px-6"
+      className="min-h-[90vh] flex flex-col items-center justify-start pt-44 text-center px-6"
     >
       {/* Foto */}
       <div className="mb-8">
