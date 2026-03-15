@@ -6,12 +6,15 @@ import {
   FaGit,
   FaNodeJs,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 function Skills() {
+  const { t } = useTranslation();
+
   return (
-    <section id="skills" className="py-24 px-6">
+    <section id="skills" className="py-24 px-6" data-aos="fade-up" data-aos-duration="1000">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-        Tecnologías
+        {t("skills.title")}
       </h2>
 
       <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 max-w-5xl mx-auto text-center">

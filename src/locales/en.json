@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Technologies",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I am",
+    "name": "Rusbel",
+    "description": "Frontend Developer specialized in React. I focus on creating modern, fast interfaces and high-quality web experiences.",
+    "btn_projects": "View Projects",
+    "btn_contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am a Dominican web developer passionate about technology and creating modern, fast, and responsive interfaces. I enjoy building digital experiences that are intuitive and efficient for users.",
+    "p2": "I consider myself a dreamer, with a creative mind and great motivation to constantly learn and face new challenges in the world of web development.",
+    "quote": "\"My goal is to continue growing as a developer and create projects that add real value to people.\""
+  },
+  "skills": {
+    "title": "Technologies"
+  },
+  "projects": {
+    "title": "Projects",
+    "view_project": "View project →",
+    "list": {
+      "1": {
+        "title": "Task Manager",
+        "description": "You can write down the tasks you have pending for the day and cross them out once you are getting them done."
+      },
+      "2": {
+        "title": "Firebase Registration",
+        "description": "The user will be able to sign up and log in."
+      },
+      "3": {
+        "title": "Movie Search App",
+        "description": "Connected to the API, it gives you a large catalog to search for more information about your favorite movie."
+      },
+      "4": {
+        "title": "Calculator",
+        "description": "Basic calculator on the web."
+      },
+      "5": {
+        "title": "Clothing Store",
+        "description": "Simulated e-commerce, where you can search for trending clothes."
+      },
+      "6": {
+        "title": "Weather Finder",
+        "description": "Search the weather anywhere in the world."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "You can find me on my social networks or write me directly."
+  },
+  "footer": {
+    "text": "© 2026 Rusbel Cuello"
+  }
+}

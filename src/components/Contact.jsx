@@ -1,12 +1,15 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
-    <section id="contact" className="py-20 px-6 text-center">
-      <h2 className="text-3xl md:text-4xl font-bold mb-10">Contacto</h2>
+    <section id="contact" className="py-20 px-6 text-center" data-aos="fade-up" data-aos-duration="1000">
+      <h2 className="text-3xl md:text-4xl font-bold mb-10">{t("contact.title")}</h2>
 
       <p className="text-gray-400 mb-8">
-        Puedes encontrarme en mis redes o escribirme directamente.
+        {t("contact.description")}
       </p>
 
       <div className="flex justify-center gap-8 text-3xl">

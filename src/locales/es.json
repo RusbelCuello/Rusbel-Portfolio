@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Tecnologías",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Rusbel",
+    "description": "Desarrollador Frontend especializado en React. Me enfoco en crear interfaces modernas, rápidas y experiencias web de alta calidad.",
+    "btn_projects": "Ver proyectos",
+    "btn_contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Soy un desarrollador web dominicano apasionado por la tecnología y por crear interfaces modernas, rápidas y responsivas. Disfruto construir experiencias digitales que sean intuitivas y eficientes para los usuarios.",
+    "p2": "Me considero una persona soñadora, con una mente creativa y una gran motivación por aprender constantemente y enfrentar nuevos retos dentro del mundo del desarrollo web.",
+    "quote": "\"Mi objetivo es seguir creciendo como desarrollador y crear proyectos que aporten valor real a las personas.\""
+  },
+  "skills": {
+    "title": "Tecnologías"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "view_project": "Ver proyecto →",
+    "list": {
+      "1": {
+        "title": "Gestor de Tareas",
+        "description": "Podes anotar las tareas que tienes pendiente por el día e ir tachándolas una vez la vayas haciendo."
+      },
+      "2": {
+        "title": "Registro Con Firebase",
+        "description": "El usuario podrá registrarse e iniciar sesión."
+      },
+      "3": {
+        "title": "App De Busqueda De Películas",
+        "description": "Conectada a la api te da un gran catálogo para buscar más información de tu película favorita."
+      },
+      "4": {
+        "title": "Calculadora",
+        "description": "Calculadora básica en la web."
+      },
+      "5": {
+        "title": "Tienda De Ropa",
+        "description": "E-commerce simulado, donde puedes buscar ropa en tendencia."
+      },
+      "6": {
+        "title": "Buscador De Clima",
+        "description": "Busca el clima de cualquier parte del mundo."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Puedes encontrarme en mis redes o escribirme directamente."
+  },
+  "footer": {
+    "text": "© 2026 Rusbel Cuello"
+  }
+}
