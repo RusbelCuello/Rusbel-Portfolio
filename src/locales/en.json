@@ -27,8 +27,8 @@
     "view_project": "View project →",
     "list": {
       "1": {
-        "title": "Task Manager",
-        "description": "You can write down the tasks you have pending for the day and cross them out once you are getting them done."
+        "title": "D'SotoRentCar",
+        "description": "Is an app to rent cars, where you can search for cars and reserve them."
       },
       "2": {
         "title": "Firebase Registration",

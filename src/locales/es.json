@@ -27,8 +27,8 @@
     "view_project": "Ver proyecto →",
     "list": {
       "1": {
-        "title": "Gestor de Tareas",
-        "description": "Podes anotar las tareas que tienes pendiente por el día e ir tachándolas una vez la vayas haciendo."
+        "title": "D'SotoRentCar",
+        "description": "Esta es una app de alquilar autos, donde puedes buscar autos y reservarlos."
       },
       "2": {
         "title": "Registro Con Firebase",
