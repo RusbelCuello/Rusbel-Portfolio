@@ -31,12 +31,12 @@
         "description": "Is an app to rent cars, where you can search for cars and reserve them."
       },
       "2": {
-        "title": "Firebase Registration",
-        "description": "The user will be able to sign up and log in."
+        "title": "SotoVentas",
+        "description": "Professional real estate website for a Dominican real estate agency."
       },
       "3": {
-        "title": "Movie Search App",
-        "description": "Connected to the API, it gives you a large catalog to search for more information about your favorite movie."
+        "title": "My Old Portfolio",
+        "description": "This was my old portfolio when I was even more of a novice."
       },
       "4": {
         "title": "Calculator",

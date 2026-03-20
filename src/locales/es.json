@@ -31,12 +31,12 @@
         "description": "Esta es una app de alquilar autos, donde puedes buscar autos y reservarlos."
       },
       "2": {
-        "title": "Registro Con Firebase",
-        "description": "El usuario podrá registrarse e iniciar sesión."
+        "title": "SotoVentas",
+        "description": "Página web profesional para una inmobiliaria dominicana."
       },
       "3": {
-        "title": "App De Busqueda De Películas",
-        "description": "Conectada a la api te da un gran catálogo para buscar más información de tu película favorita."
+        "title": "Mi Antiguo Portafolio",
+        "description": "Este era mi antiguo portafolio cuando aun era mas novato."
       },
       "4": {
         "title": "Calculadora",
