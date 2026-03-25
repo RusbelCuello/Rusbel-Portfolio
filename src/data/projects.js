@@ -2,7 +2,7 @@ const projects = [
   {
     title: "D Soto Rent Car",
     description: "Sitio web para una empresa de alquiler de vehículos.",
-    link: "https://d-soto-rent-car.vercel.app/",
+    link: "https://d-soto-rent-car-new.vercel.app/",
   },
   {
     title: "Mi Portfolio",
