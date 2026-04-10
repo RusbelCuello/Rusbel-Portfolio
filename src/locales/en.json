@@ -27,20 +27,20 @@
     "view_project": "View project →",
     "list": {
       "1": {
-        "title": "D'SotoRentCar",
-        "description": "Is an app to rent cars, where you can search for cars and reserve them."
+        "title": "Rent Car Control",
+        "description": "Comprehensive platform for managing car rental companies."
       },
       "2": {
-        "title": "SotoVentas",
-        "description": "Professional real estate website for a Dominican real estate agency."
+        "title": "D'SotoRentCar",
+        "description": "Corporate website for a car rental company, with a vehicle catalog, reservation form."
       },
       "3": {
-        "title": "My Old Portfolio",
-        "description": "This was my old portfolio when I was even more of a novice."
+        "title": "Soto Ventas",
+        "description": "Website for searching houses and apartments for a Dominican real estate agency."
       },
       "4": {
-        "title": "Calculator",
-        "description": "Basic calculator on the web."
+        "title": "My Old Portfolio",
+        "description": "This was my old portfolio when I was even more of a novice."
       },
       "5": {
         "title": "Clothing Store",

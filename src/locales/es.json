@@ -27,20 +27,20 @@
     "view_project": "Ver proyecto →",
     "list": {
       "1": {
-        "title": "D'SotoRentCar",
-        "description": "Esta es una app de alquilar autos, donde puedes buscar autos y reservarlos."
+        "title": "Rent Car Control",
+        "description": "Plataforma integral para la gestión de empresas de alquiler de vehículos."
       },
       "2": {
-        "title": "SotoVentas",
-        "description": "Página web profesional para una inmobiliaria dominicana."
+        "title": "D'SotoRentCar",
+        "description": "Aplicación para alquilar autos, donde puedes buscar autos y reservarlos."
       },
       "3": {
-        "title": "Mi Antiguo Portafolio",
-        "description": "Este era mi antiguo portafolio cuando aun era mas novato."
+        "title": "Soto Ventas",
+        "description": "pagina para buscar casas, apartamentos. para una agencia inmobiliaria dominicana."
       },
       "4": {
-        "title": "Calculadora",
-        "description": "Calculadora básica en la web."
+        "title": "Mi antiguo portafolio",
+        "description": "Este era mi antiguo portafolio cuando aun era mas novato."
       },
       "5": {
         "title": "Tienda De Ropa",
