@@ -1,16 +1,22 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-
+import { FaPersonDotsFromLine } from "react-icons/fa6";
+import { FaDownload } from "react-icons/fa";
 function Contact() {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="py-20 px-6 text-center" data-aos="fade-up" data-aos-duration="1000">
-      <h2 className="text-3xl md:text-4xl font-bold mb-10">{t("contact.title")}</h2>
+    <section
+      id="contact"
+      className="py-20 px-6 text-center"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2 className="text-3xl md:text-4xl font-bold mb-10">
+        {t("contact.title")}
+      </h2>
 
-      <p className="text-gray-400 mb-8">
-        {t("contact.description")}
-      </p>
+      <p className="text-gray-400 mb-8">{t("contact.description")}</p>
 
       <div className="flex justify-center gap-8 text-3xl">
         <a
@@ -43,6 +49,15 @@ function Contact() {
           className="hover:text-green-400 transition"
         >
           <FaWhatsapp />
+        </a>
+        <a
+          href="/RusbelCV2026.pdf"
+          download="Rusbel_CV_2026.pdf"
+          title="Descargar CV"
+          className="flex items-center gap-1 text-white/80 hover:text-gray-400 transition"
+        >
+          <FaDownload className="text-lg" />
+          <span className="text-xs">CV</span>
         </a>
       </div>
     </section>
