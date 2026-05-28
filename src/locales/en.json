@@ -39,18 +39,42 @@
         "description": "Website for searching houses and apartments for a Dominican real estate agency."
       },
       "4": {
-        "title": "My Old Portfolio",
-        "description": "This was my old portfolio when I was even more of a novice."
+        "title": "Food Store",
+        "description": "Modern and responsive landing page for a food store, focused on an attractive and professional visual experience."
       },
       "5": {
-        "title": "Clothing Store",
-        "description": "Simulated e-commerce, where you can search for trending clothes."
+        "title": "My Old Portfolio",
+        "description": "This was my old portfolio when I was even more of a novice."
       },
       "6": {
         "title": "Weather Finder",
         "description": "Search the weather anywhere in the world."
       }
     }
+  },
+  "project_cta": {
+    "title": "Are you interested in starting a project?",
+    "subtitle": "Let's turn your ideas into reality! Tell me a bit and let's design the ideal solution.",
+    "select_type": "1. Select the project type",
+    "select_timeline": "2. What is the estimated timeline?",
+    "your_details": "3. Tell me the details",
+    "placeholder_name": "Your name",
+    "placeholder_description": "Briefly tell me about your idea or requirements...",
+    "types": {
+      "landing": "Landing Page / Corporate Site",
+      "ecommerce": "Online Store (E-commerce)",
+      "custom": "Custom Web App",
+      "other": "Other service"
+    },
+    "timeline": {
+      "urgent": "Urgent",
+      "medium": "1 to 3 months",
+      "flexible": "Flexible"
+    },
+    "btn_whatsapp": "Send via WhatsApp",
+    "btn_email": "Send via Email",
+    "btn_direct_chat": "I prefer to chat directly",
+    "whatsapp_template": "Hi Rusbel! I'm interested in starting a project.\n\n*Project Details:*\n- *Type:* {{type}}\n- *Timeline:* {{timeline}}\n- *Client:* {{name}}\n- *Idea:* {{description}}"
   },
   "contact": {
     "title": "Contact",

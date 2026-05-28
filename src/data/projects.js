@@ -21,12 +21,12 @@ const projects = [
     title: "Mi Portafolio",
     description:
       "Portafolio profesional desarrollado en React, donde muestro mis proyectos, habilidades y experiencia como desarrollador web.",
-    link: "https://mi-portfolio-x5zg.vercel.app/",
+    link: "https://pasteles-en-hoja-by-nathaly.vercel.app/",
   },
   {
     title: "Proyecto futuro 1",
     description: "Próximo proyecto en desarrollo, pronto disponible.",
-    link: "#",
+    link: "https://mi-portfolio-x5zg.vercel.app/",
   },
   {
     title: "Proyecto futuro 2",

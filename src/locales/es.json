@@ -39,18 +39,42 @@
         "description": "pagina para buscar casas, apartamentos. para una agencia inmobiliaria dominicana."
       },
       "4": {
-        "title": "Mi antiguo portafolio",
-        "description": "Este era mi antiguo portafolio cuando aun era mas novato."
+        "title": "Tienda de comida",
+        "description": "Landing page moderna y responsive para una tienda de comida, enfocada en una experiencia visual atractiva y profesional."
       },
       "5": {
-        "title": "Tienda De Ropa",
-        "description": "E-commerce simulado, donde puedes buscar ropa en tendencia."
+        "title": "Mi antiguo portafolio",
+        "description": "Este era mi antiguo portafolio cuando aun era mas novato."
       },
       "6": {
         "title": "Buscador De Clima",
         "description": "Busca el clima de cualquier parte del mundo."
       }
     }
+  },
+  "project_cta": {
+    "title": "¿Estás interesado en iniciar un proyecto?",
+    "subtitle": "¡Hagamos realidad tus ideas! Cuéntame un poco y diseñemos la solución ideal.",
+    "select_type": "1. Selecciona el tipo de proyecto",
+    "select_timeline": "2. ¿Cuál es el plazo estimado?",
+    "your_details": "3. Cuéntame los detalles",
+    "placeholder_name": "Tu nombre",
+    "placeholder_description": "Cuéntame brevemente sobre tu idea o requerimientos...",
+    "types": {
+      "landing": "Landing Page / Web Corporativa",
+      "ecommerce": "Tienda Online (E-commerce)",
+      "custom": "App Web a Medida",
+      "other": "Otro servicio"
+    },
+    "timeline": {
+      "urgent": "Urgente",
+      "medium": "1 a 3 meses",
+      "flexible": "Flexible"
+    },
+    "btn_whatsapp": "Enviar por WhatsApp",
+    "btn_email": "Enviar por Email",
+    "btn_direct_chat": "Prefiero chatear directamente",
+    "whatsapp_template": "¡Hola Rusbel! Estoy interesado en iniciar un proyecto.\n\n*Detalles del Proyecto:*\n- *Tipo:* {{type}}\n- *Plazo:* {{timeline}}\n- *Cliente:* {{name}}\n- *Idea:* {{description}}"
   },
   "contact": {
     "title": "Contacto",

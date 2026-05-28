@@ -12,15 +12,40 @@ const resources = {
   }
 };
 
+const getSavedLanguage = () => {
+  try {
+    const saved = localStorage.getItem("portfolio_lang");
+    if (saved === "es" || saved === "en") return saved;
+  } catch (e) {
+    // localStorage not available
+  }
+  return "es";
+};
+
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "es", 
+    lng: getSavedLanguage(),
     fallbackLng: "es",
+    supportedLngs: ["es", "en"],
     interpolation: {
-      escapeValue: false 
+      escapeValue: false
+    },
+    react: {
+      useSuspense: false,
+      bindI18n: "languageChanged loaded",
+      bindI18nStore: "added removed",
     }
   });
+
+// Listen for language changes and persist
+i18n.on("languageChanged", (lng) => {
+  try {
+    localStorage.setItem("portfolio_lang", lng);
+  } catch (e) {
+    // localStorage not available
+  }
+});
 
 export default i18n;
