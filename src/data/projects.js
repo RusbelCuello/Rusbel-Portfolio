@@ -26,12 +26,12 @@ const projects = [
   {
     title: "Proyecto futuro 1",
     description: "Próximo proyecto en desarrollo, pronto disponible.",
-    link: "https://mi-portfolio-x5zg.vercel.app/",
+    link: "https://www.littledreamers2.com/",
   },
   {
     title: "Proyecto futuro 2",
     description: "Próximo proyecto en desarrollo, pronto disponible.",
-    link: "#",
+    link: "https://mi-portfolio-x5zg.vercel.app/",
   },
 ];
 
